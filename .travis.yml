@@ -1,0 +1,15 @@
+os: linux
+dist: xenial
+language: php
+php: 7.4
+before_install:
+   - nvm install --lts
+   - nvm use --lts
+script:
+  - php -version
+  - node -v
+  - npm -v
+  - echo "test by Mustafaeee"
+  - echo $testing-env-1
+  - echo $testing-env-branch-1
+  
