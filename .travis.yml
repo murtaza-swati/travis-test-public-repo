@@ -3,13 +3,15 @@ dist: xenial
 language: php
 php: 7.4
 before_install:
-   - nvm install --lts
-   - nvm use --lts
+- nvm install --lts
+- nvm use --lts
 script:
-  - php -version
-  - node -v
-  - npm -v
-  - echo "test by Mustafaeee"
-  - echo $testing-env-1
-  - echo $testing-env-branch-1
-  
+- php -version
+- node -v
+- npm -v
+- echo "test by Mustafaeee"
+- echo $testing-env-1
+- echo $testing-env-branch-1
+env:
+  global:
+    secure: IykCt0RP3mfCxsVhnlsupPWLeyITwIeIw4mIV6Wo3SFS/kEOScmUw28kBkn7QAgUui1mXtuksxPhY3LFkWF4cLFoiAmCevQekGqX9cLOonXChjfadu3J7y1GrUn2L74tkQxAEDWTnlvcHbQwd8TsjtH7fR+Wo6t/uA8s2bAuGDpgZncGmD2ZRxdaf/qiDOISq/FOhAQjq3IYJEASHElpXlgzVO7dJS1jUL+4Cxk3jePaBXQStsI2/mNLOeoZQi8VRCHoqszqzigTc3zM9ZK1J+sk8eOQH9NioXq2s784qLnq0VGWh3CC19RFuPgYwpmPbfWaOaADy8ece3AZkReUNwAc7Tp1Ebg7FV04v2S0W4fWqyT9MXzOOqHdxQSETFzjzT9hGEB9FwajDLkGvUqbmiwmFAOupBIM06/qx1MGwceWJFd9h8Gx+uqcXAogaB/bAvrvZyDwIPi5ZyNTAZZprM+w4RXVFMQAms7MVXltlWtTAUl0Oxq34rwYn9/LIApzRTLvSdGxlWiQLqrtkQmBQgoCoDC61Gu/qVusMOoS1wNq+DktKdYsen5J5ghOXgMoPiZ7/nSo1H8023KJEPVa3UVMjFibgvk/c64RfL7nAbILJLLM0RMimQMZFD3aULPrLb7eSR8FQhAlhkWVX+GwsGFOOXfis8H82DXfWR9kFPg=
